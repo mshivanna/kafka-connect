@@ -40,10 +40,10 @@ spec:
               service:
                 name: {{ $fullName }}
                 port:
-                  name: {{ $servicePort }}
+                  name: {{ $fullName }}
               {{- else }}
               serviceName: {{ $fullName }}
-              servicePort: {{ $servicePort }}
+              servicePort: {{ $fullName }}
           {{- end }}
             pathType: {{ $pathtype }}
   {{- end }}
