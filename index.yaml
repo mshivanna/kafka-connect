@@ -3,7 +3,16 @@ entries:
   kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-07-31T14:23:35.704738-04:00"
+    created: "2023-07-31T14:29:08.451061-04:00"
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: 4798958e096ffcab9195a2a668ef59b9dd3db674671cba58aadbf6619243d31f
+    name: kafka-connect
+    urls:
+    - https://mshivanna.github.io/kafka-connect/kafka-connect-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-07-31T14:29:08.449957-04:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 8ae6e62674ca5fc72e13bbf64a3b2dd6b3938b6bf2ea061f0f951f828dd19227
     name: kafka-connect
@@ -12,11 +21,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-07-31T14:23:35.704098-04:00"
+    created: "2023-07-31T14:29:08.449194-04:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 388ca53f128e3b4b7b533b7b72527a80e54ea63a39cb364ea89076a04f6e9452
     name: kafka-connect
     urls:
     - https://mshivanna.github.io/kafka-connect/kafka-connect-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-31T14:23:35.703017-04:00"
+generated: "2023-07-31T14:29:08.44813-04:00"
