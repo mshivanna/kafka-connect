@@ -137,6 +137,7 @@ livenessProbe:
 
 ingress:
   enabled: true
+  ingressClassName: ""
   annotations: {}
   hosts:
     - host: chart-example.local
